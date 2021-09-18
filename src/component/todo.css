@@ -1,0 +1,78 @@
+
+.ParentDiv{
+  width:90%;
+  height:100VH;
+  /* background-color: black; */
+  padding:5%;
+  font-family: 'Lato', sans-serif;
+}
+
+.BOX{
+  width: 40%;
+  margin: auto;
+  padding:2%; 
+  min-height:40VH;
+  background-color: rgb(6, 107, 238);
+  text-align: center;
+  border-radius: 20px;
+
+}
+
+ 
+button{
+  width:5VW; 
+  font-size: 2VW;
+  padding: 2%;
+  border: none;
+  height:4.5VW;
+  margin-right:0;
+  border-radius: 20px ;
+} 
+
+
+  input{
+    font-size: 2VW;
+    padding: 3%;
+    width: 20VW;
+    border-radius: 2VW;
+    padding-left: 2VH;
+    outline: hidden;
+    border: none;
+    margin-right: 1.5VH;
+  }
+ 
+
+  .taskDiv{
+    padding-top:5%;
+    background-color: white;
+  }
+  
+  .tasks{
+    font-size: 1.9VW;
+    width:  27.9VW;
+    margin: auto;
+    /* padding:2.2% 0 2.2% 5%; */
+    border-radius: 2VW;
+    background-color: rgb(255,255,255);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  .div1{
+    flex-basis: 85%; 
+  }
+  .div2{
+    flex-basis: 15%; 
+    display: inline;
+  }
+
+  .page{
+    margin-top: 4VH;
+    width:10VW;
+    padding:1VH;
+    background-color: aqua;
+    margin-inline: 4VH;
+  }
